@@ -1,0 +1,49 @@
+h1{
+    margin-bottom: 0;
+}
+.logo-md{
+    height: 42px;
+}
+.logo{
+    height: 24px;
+    width: 24px;
+}
+.navbar{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+ul{
+    margin-bottom: 0;
+}
+.navbar::before {
+    content: "";
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #62DB54;
+    @include pad{
+        top: 90px;
+    }
+  }
+.navbar::after{
+    content: "";
+    position: absolute;
+    top: 72px;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #09ACF5;
+    @include pad{
+        top: 90px;
+    }
+}
+.footer{
+    background: #1A1A1A;
+    color: #909090;
+    font-size: 12px;
+    @include pad{
+        font-size: 16px;
+    }
+}
