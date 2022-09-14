@@ -13180,16 +13180,11 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: auto !important;
 }
 
 .swiper-slide a:hover {
   background: #1C1C1C;
-}
-
-.swiper-slide a {
-  display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .liststyle {
@@ -13211,6 +13206,7 @@ body {
   top: 96px;
   width: 50px;
   height: 3px;
+  left: 50%;
   background-color: #62DB54;
 }
 
